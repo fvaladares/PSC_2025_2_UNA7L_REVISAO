@@ -1,0 +1,1 @@
+rootProject.name = "PSC_2025_2_UNA7L_REVISAO"
