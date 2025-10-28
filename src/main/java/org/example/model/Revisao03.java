@@ -2,6 +2,11 @@ package org.example.model;
 
 import java.util.Scanner;
 
+/*
+    TODO(
+        criar uma função para calcular a média e,
+        substituir todos os cálculos manuais por ela.
+ */
 public class Revisao03 {
     public void run(Scanner sc) {
 
@@ -19,7 +24,7 @@ public class Revisao03 {
         nota2 = sc.nextDouble();
         System.out.print("\nDigite a terceira nota: ");
         nota3 = sc.nextDouble();
-        media = (nota1 + nota2 + nota3) / 3;
+        media = (nota1 + nota2 + nota3) / 3; // public double media(nota1, nota2, nota3)
         System.out.println("Média: " + media);
 
         if (media >= 7.0) {

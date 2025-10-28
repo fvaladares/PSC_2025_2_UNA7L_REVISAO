@@ -36,6 +36,10 @@ public class Main {
 
         System.out.println("\n\n " + parcelaA + " + " + parcelaB + " = " + resultado);
 
+        Revisao03 revisao03 = new Revisao03();
+
+        revisao03.run(new Scanner(System.in));
+
 
     }
 }
