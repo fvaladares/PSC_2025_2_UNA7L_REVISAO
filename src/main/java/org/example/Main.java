@@ -1,10 +1,8 @@
 package org.example;
 
-import org.example.model.Algoritmo01A1;
-import org.example.model.Algoritmo02A1;
-import org.example.model.Revisao01;
-import org.example.model.Revisao02;
+import org.example.model.*;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -20,8 +18,23 @@ public class Main {
 //        Algoritmo01A1 a01a1 = new Algoritmo01A1();
 //        a01a1.run(new Scanner(System.in));
 //
-        Algoritmo02A1 algoritmo02A1a1 = new Algoritmo02A1();
-        algoritmo02A1a1.run(new Scanner(System.in));
+//        Algoritmo02A1 algoritmo02A1a1 = new Algoritmo02A1();
+//        algoritmo02A1a1.run(new Scanner(System.in));
+
+        Calculadora calculadora = new Calculadora();
+        int parcelaA;
+        int parcelaB;
+        int resultado;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("\n\nInforme o valor da parcela A: ");
+        parcelaA = sc.nextInt();
+
+        System.out.print("\n\nInforme o valor da parcela B: ");
+        parcelaB = sc.nextInt();
+
+        resultado = calculadora.somaInteiros(parcelaA, parcelaB);
+
+        System.out.println("\n\n " + parcelaA + " + " + parcelaB + " = " + resultado);
 
 
     }

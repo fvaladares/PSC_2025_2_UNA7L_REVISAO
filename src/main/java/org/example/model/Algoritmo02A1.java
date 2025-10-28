@@ -9,6 +9,10 @@ TODO(
     TENHA BAIXA RENDA (SALÁRIO < 3000) E FOR ESTUDANTE. Os demais descontos
     se mantém da forma atual. )
  */
+    // public - Modificador de acesso ("acessível em todas as partes")
+    // void - vazio - função não retorna valor
+    // run - Identificador (nome da função)
+    // modificadorDeAcesso tipoDeRetorno nomeDaFunção(tipo identificadorDoParâmetro)
     public void run(Scanner input) {
         int idade = 20;
         double renda = 1000.0;
