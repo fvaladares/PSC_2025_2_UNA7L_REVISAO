@@ -34,12 +34,17 @@ public class Main {
 
         resultado = calculadora.somaInteiros(parcelaA, parcelaB);
 
+//        resultado = somaDoisInteiros(parcelaA, parcelaB);
         System.out.println("\n\n " + parcelaA + " + " + parcelaB + " = " + resultado);
 
         Revisao03 revisao03 = new Revisao03();
 
         revisao03.run(new Scanner(System.in));
+    }
 
+    public static int somaDoisInteiros(int a, int b) {
+        int resultado = a + b;
 
+        return resultado;
     }
 }
